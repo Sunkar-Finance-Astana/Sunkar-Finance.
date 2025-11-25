@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru" data-lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-ru="Кредиты для бизнеса - Sunkar Finance" data-kz="Бизнес үшін несиелер - Sunkar Finance">Кредиты для бизнеса - Sunkar Finance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo-placeholder">Sunkar Finance</a>
+            
+            <nav class="nav">
+                <a href="index.html#services" data-ru="Услуги" data-kz="Қызметтер">Услуги</a>
+                <a href="agent.html" data-ru="Агентам" data-kz="Агенттерге">Агентам</a>
+                <a href="index.html#contacts" data-ru="Контакты" data-kz="Байланыс">Контакты</a>
+            </nav>
+            
+            <div class="header-controls">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="kz">KZ</button>
+                </div>
+                <a href="https://wa.me/77470493983" class="whatsapp-link">
+                    <div class="icon-placeholder" data-type="whatsapp">WA</div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-ru="Кредиты для ИП и ТОО" data-kz="ЖШС және МШС үшін несиелер">Кредиты для ИП и ТОО</h1>
+                <p class="hero-subtitle" data-ru="До 200 млн тенге для развития бизнеса. Решение за 1 день." 
+                   data-kz="Бизнесті дамыту үшін 200 млн теңгеге дейін. 1 күнде шешім.">
+                    До 200 млн тенге для развития бизнеса. Решение за 1 день.
+                </p>
+                <button class="btn btn-primary" onclick="openCalculator()">
+                    <span data-ru="Получить предложение" data-kz="Ұсыныс алу">Получить предложение</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="service-details">
+                <h2 data-ru="Финансирование для бизнеса" data-kz="Бизнес үшін қаржыландыру">Финансирование для бизнеса</h2>
+                
+                <div class="details-grid">
+                    <div class="detail-card">
+                        <h3 data-ru="Оборотный капитал" data-kz="Айналым капиталы">Оборотный капитал</h3>
+                        <ul>
+                            <li data-ru="Сумма: до 50 000 000 ₸" data-kz="Сома: 50 000 000 ₸ дейін">Сумма: до 50 000 000 ₸</li>
+                            <li data-ru="Срок: до 3 лет" data-kz="Мерзім: 3 жылға дейін">Срок: до 3 лет</li>
+                            <li data-ru="Ставка: от 17% годовых" data-kz="Бахы: жылына 17% бастап">Ставка: от 17% годовых</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <h3 data-ru="Инвестиционные цели" data-kz="Инвестициялық мақсаттар">Инвестиционные цели</h3>
+                        <ul>
+                            <li data-ru="Сумма: до 200 000 000 ₸" data-kz="Сома: 200 000 000 ₸ дейін">Сумма: до 200 000 000 ₸</li>
+                            <li data-ru="Срок: до 7 лет" data-kz="Мерзім: 7 жылға дейін">Срок: до 7 лет</li>
+                            <li data-ru="Ставка: от 15% годовых" data-kz="Бахы: жылына 15% бастап">Ставка: от 15% годовых</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="benefits">
+                    <h3 data-ru="Для кого подходит" data-kz="Кімге сәйкес келеді">Для кого подходит</h3>
+                    <ul>
+                        <li data-ru="Индивидуальные предприниматели (ИП)" data-kz="Жеке кәсіпкерлер (ЖК)">Индивидуальные предприниматели (ИП)</li>
+                        <li data-ru="Товарищества с ограниченной ответственностью (ТОО)" data-kz="Жауапкершілігі шектеулі серіктестік (ЖШС)">Товарищества с ограниченной ответственностью (ТОО)</li>
+                        <li data-ru="Компании с оборотом от 1 млн ₸ в месяц" data-kz="Айлық айналымы 1 млн ₸-дан басталатын компаниялар">Компании с оборотом от 1 млн ₸ в месяц</li>
+                        <li data-ru="Бизнесы от 6 месяцев" data-kz="6 айдан бастап бизнес">Бизнесы от 6 месяцев</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section class="calculator-section">
+        <div class="container">
+            <h2 class="section-title" data-ru="Рассчитайте условия" data-kz="Шарттарды есептеңіз">Рассчитайте условия</h2>
+            <button class="btn btn-primary" onclick="openCalculator()">
+                <span data-ru="Получить расчет" data-kz="Есептеу алу">Получить расчет</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Calculator Modal -->
+    <div id="calculatorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCalculator()">&times;</span>
+            <h2 data-ru="Расчет бизнес-кредита" data-kz="Бизнес-несиені есептеу">Расчет бизнес-кредита</h2>
+            
+            <form id="calculatorForm" class="calc-form">
+                <div class="form-group">
+                    <label data-ru="Название компании" data-kz="Компания атауы">Название компании *</label>
+                    <input type="text" id="companyName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label data-ru="ФИО руководителя" data-kz="Басшының аты-жөні">ФИО руководителя *</label>
+                    <input type="text" id="directorName" required>
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Телефон" data-kz="Телефон">Телефон *</label>
+                    <input type="tel" id="phone" required placeholder="+7 701 123 45 67">
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Среднемесячный оборот" data-kz="Орташа айлық айналым">Среднемесячный оборот *</label>
+                    <input type="number" id="monthlyTurnover" required placeholder="5000000">
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Цель кредита" data-kz="Несие мақсаты">Цель кредита</label>
+                    <select id="loanPurpose">
+                        <option value="working" data-ru="Оборотные средства" data-kz="Айналым қаражаты">Оборотные средства</option>
+                        <option value="investment" data-ru="Инвестиции" data-kz="Инвестициялар">Инвестиции</option>
+                        <option value="equipment" data-ru="Оборудование" data-kz="Жабдықтар">Оборудование</option>
+                        <option value="other" data-ru="Другое" data-kz="Басқа">Другое</option>
+                    </select>
+                </div>
+
+                <button type="button" class="btn btn-primary" onclick="calculateProbability()">
+                    <span data-ru="Рассчитать условия" data-kz="Шарттарды есептеу">Рассчитать условия</span>
+                </button>
+            </form>
+            
+            <div id="calcResult" class="calc-result" style="display: none;">
+                <div class="progress-circle">
+                    <span id="percentValue">0%</span>
+                </div>
+                <p id="resultText"></p>
+                <button class="btn btn-success" onclick="sendToWhatsApp()">
+                    <span data-ru="Обсудить с менеджером" data-kz="Менеджермен талқылау">Обсудить с менеджером</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
