@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru" data-lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-ru="Кредиты без залога - Sunkar Finance" data-kz="Тұрақсыз несиелер - Sunkar Finance">Кредиты без залога - Sunkar Finance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="logo.png" alt="Sunkar Finance" class="logo" width="120">
+            
+            <nav class="nav">
+                <a href="index.html#services" data-ru="Услуги" data-kz="Қызметтер">Услуги</a>
+                <a href="agent.html" data-ru="Агентам" data-kz="Агенттерге">Агентам</a>
+                <a href="index.html#contacts" data-ru="Контакты" data-kz="Байланыс">Контакты</a>
+            </nav>
+            
+            <div class="header-controls">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="kz">KZ</button>
+                </div>
+                <a href="https://wa.me/77470493983" class="whatsapp-link">
+                    <img src="whatsapp.png" alt="WhatsApp" width="40" height="40">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-ru="Кредиты без залога" data-kz="Тұрақсыз несиелер">Кредиты без залога</h1>
+                <p class="hero-subtitle" data-ru="До 20 млн тенге с подтверждением дохода. Быстрое одобрение даже с плохой КИ." 
+                   data-kz="Табын растаумен 20 млн теңгеге дейін. Тіпті нашар несие тарихымен тез мақұлдау.">
+                    До 20 млн тенге с подтверждением дохода. Быстрое одобрение даже с плохой КИ.
+                </p>
+                <button class="btn btn-primary" onclick="openCalculator()">
+                    <span data-ru="Рассчитать вероятность" data-kz="Ықтималдықты есептеу">Рассчитать вероятность</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="service-details">
+                <h2 data-ru="Условия кредита без залога" data-kz="Тұрақсыз несие шарттары">Условия кредита без залога</h2>
+                
+                <div class="details-grid">
+                    <div class="detail-card">
+                        <h3 data-ru="С подтверждением дохода" data-kz="Табын растаумен">С подтверждением дохода</h3>
+                        <ul>
+                            <li data-ru="Сумма: до 20 000 000 ₸" data-kz="Сома: 20 000 000 ₸ дейін">Сумма: до 20 000 000 ₸</li>
+                            <li data-ru="Срок: до 7 лет" data-kz="Мерзім: 7 жылға дейін">Срок: до 7 лет</li>
+                            <li data-ru="Ставка: от 18% годовых" data-kz="Бахы: жылына 18% бастап">Ставка: от 18% годовых</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="detail-card">
+                        <h3 data-ru="Без подтверждения дохода" data-kz="Табын растаусыз">Без подтверждения дохода</h3>
+                        <ul>
+                            <li data-ru="Сумма: до 10 000 000 ₸" data-kz="Сома: 10 000 000 ₸ дейін">Сумма: до 10 000 000 ₸</li>
+                            <li data-ru="Срок: до 5 лет" data-kz="Мерзім: 5 жылға дейін">Срок: до 5 лет</li>
+                            <li data-ru="Ставка: от 22% годовых" data-kz="Бахы: жылына 22% бастап">Ставка: от 22% годовых</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="benefits">
+                    <h3 data-ru="Наши преимущества" data-kz="Біздің артықшылықтар">Наши преимущества</h3>
+                    <ul>
+                        <li data-ru="Одобрение 95% заявок" data-kz="Өтінімдердің 95% мақұлдануы">Одобрение 95% заявок</li>
+                        <li data-ru="Решение за 1-2 дня" data-kz="1-2 күнде шешім">Решение за 1-2 дня</li>
+                        <li data-ru="Работаем с просрочками" data-kz="Кешігулермен жұмыс істейміз">Работаем с просрочками</li>
+                        <li data-ru="Без скрытых комиссий" data-kz="Жасырын комиссиялар жоқ">Без скрытых комиссий</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calculator-section">
+        <div class="container">
+            <h2 class="section-title" data-ru="Рассчитайте вашу вероятность" data-kz="Сіздің ықтималдығыңызды есептеңіз">Рассчитайте вашу вероятность</h2>
+            <button class="btn btn-primary" onclick="openCalculator()">
+                <span data-ru="Открыть калькулятор" data-kz="Калькуляторды ашу">Открыть калькулятор</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <h2 class="section-title" data-ru="Контакты" data-kz="Байланыс">Контакты</h2>
+            <div class="contacts-content">
+                <div class="contact-info">
+                    <div class="social-links">
+                        <a href="https://instagram.com/sunkar_finance" class="social-link">
+                            <img src="instagram.png" alt="Instagram" width="96" height="96" class="social-icon">
+                        </a>
+                        <a href="https://tiktok.com/@sunkar.finance" class="social-link">
+                            <img src="tiktok.png" alt="TikTok" width="96" height="96" class="social-icon">
+                        </a>
+                        <a href="https://2gis.kz/astana/firm/70000001083468965" class="social-link">
+                            <img src="2gis.png" alt="2GIS" width="96" height="96" class="social-icon">
+                        </a>
+                        <a href="https://wa.me/77470493983" class="social-link">
+                            <img src="whatsapp.png" alt="WhatsApp" width="96" height="96" class="social-icon">
+                        </a>
+                    </div>
+                    <p class="contact-text" data-ru="Наша партнёрская сеть по всей Республике Казахстан" 
+                       data-kz="Біздің серіктестік желіміз бүкіл Қазақстан Республикасы бойынша">
+                        Наша партнёрская сеть по всей Республике Казахстан
+                    </p>
+                    <p class="contact-phone">
+                        <a href="https://wa.me/77470493983">+7 747 049 39 83</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="calculatorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCalculator()">&times;</span>
+            <h2 data-ru="Калькулятор вероятности одобрения" data-kz="Мақұлдау ықтималдығы калькуляторы">Калькулятор вероятности одобрения</h2>
+            
+            <form id="calculatorForm" class="calc-form">
+                <div class="form-group">
+                    <label data-ru="ФИО" data-kz="Аты-жөні">ФИО *</label>
+                    <input type="text" id="fullName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label data-ru="Телефон" data-kz="Телефон">Телефон *</label>
+                    <input type="tel" id="phone" required placeholder="+7 701 123 45 67">
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Город" data-kz="Қала">Город *</label>
+                    <input type="text" id="city" required>
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Желаемая сумма" data-kz="Қажетті сома">Желаемая сумма *</label>
+                    <input type="number" id="amount" required placeholder="5000000">
+                </div>
+
+                <button type="button" class="btn btn-primary" onclick="calculateProbability()">
+                    <span data-ru="Рассчитать вероятность" data-kz="Ықтималдықты есептеу">Рассчитать вероятность</span>
+                </button>
+            </form>
+            
+            <div id="calcResult" class="calc-result" style="display: none;">
+                <div class="progress-circle">
+                    <span id="percentValue">0%</span>
+                </div>
+                <p id="resultText"></p>
+                <button class="btn btn-success" onclick="sendToWhatsApp()">
+                    <span data-ru="Отправить заявку" data-kz="Өтініш жіберу">Отправить заявку</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
