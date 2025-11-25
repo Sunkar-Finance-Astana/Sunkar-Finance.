@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru" data-lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-ru="Sunkar Finance — Финансовый консалтинг #1 в Казахстане" data-kz="Sunkar Finance — Қазақстандағы №1 Қаржы Консалтингі">Sunkar Finance — Финансовый консалтинг #1 в Казахстане</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <img src="logo.png" alt="Sunkar Finance" class="logo" width="120">
+            
+            <nav class="nav">
+                <a href="#services" data-ru="Услуги" data-kz="Қызметтер">Услуги</a>
+                <a href="agent.html" data-ru="Агентам" data-kz="Агенттерге">Агентам</a>
+                <a href="#contacts" data-ru="Контакты" data-kz="Байланыс">Контакты</a>
+            </nav>
+            
+            <div class="header-controls">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="kz">KZ</button>
+                </div>
+                <a href="https://wa.me/77470493983" class="whatsapp-link">
+                    <img src="whatsapp.png" alt="WhatsApp" width="40" height="40">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-ru="Sunkar Finance — Финансовый консалтинг #1 в Казахстане" 
+                    data-kz="Sunkar Finance — Қазақстандағы №1 Қаржы Консалтингі">
+                    Sunkar Finance — Финансовый консалтинг #1 в Казахстане
+                </h1>
+                <p class="hero-subtitle" data-ru="Одобряем кредиты даже с плохой КИ и просрочками" 
+                   data-kz="Тіпті нашар несие тарихы мен кешігулері бар тұлғаларға да несие береміз">
+                    Одобряем кредиты даже с плохой КИ и просрочками
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="openCalculator()">
+                        <span data-ru="Узнать вероятность одобрения" data-kz="Мақұлдау ықтималдығын біліңіз">
+                            Узнать вероятность одобрения
+                        </span>
+                    </button>
+                    <a href="agent.html" class="btn btn-secondary">
+                        <span data-ru="Станьте нашим агентом" data-kz="Біздің агентіміз болыңыз">
+                            Станьте нашим агентом
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-ru="Наши услуги" data-kz="Біздің қызметтер">Наши услуги</h2>
+            
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <h3 data-ru="Кредиты без залога" data-kz="Тұрақсыз несиелер">Кредиты без залога</h3>
+                    <ul>
+                        <li data-ru="До 20 млн тенге с подтверждением дохода" 
+                            data-kz="Табын растаумен 20 млн теңгеге дейін">До 20 млн тенге с подтверждением дохода</li>
+                        <li data-ru="До 10 млн без подтверждения дохода" 
+                            data-kz="Табын растаусыз 10 млн теңгеге дейін">До 10 млн без подтверждения дохода</li>
+                        <li data-ru="Высокий уровень одобрения" 
+                            data-kz="Мақұлдаудың жоғары деңгейі">Высокий уровень одобрения</li>
+                    </ul>
+                    <a href="unsecured.html" class="btn btn-outline">
+                        <span data-ru="Подробнее" data-kz="Толығырақ">Подробнее</span>
+                    </a>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <h3 data-ru="Кредиты под залог" data-kz="Тұрақты несиелер">Кредиты под залог</h3>
+                    <ul>
+                        <li data-ru="До 80 млн тенге" data-kz="80 млн теңгеге дейін">До 80 млн тенге</li>
+                        <li data-ru="Быстрое решение" data-kz="Жылдам шешім">Быстрое решение</li>
+                        <li data-ru="Минимальный пакет документов" 
+                            data-kz="Құжаттардың минималды жиынтығы">Минимальный пакет документов</li>
+                    </ul>
+                    <a href="secured.html" class="btn btn-outline">
+                        <span data-ru="Подробнее" data-kz="Толығырақ">Подробнее</span>
+                    </a>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <h3 data-ru="Автокредитование" data-kz="Автокредит">Автокредитование</h3>
+                    <ul>
+                        <li data-ru="Работаем со всеми официальными дилерами" 
+                            data-kz="Барлық ресми дилерлермен жұмыс істейміз">Работаем со всеми официальными дилерами</li>
+                        <li data-ru="Новые и Б/У авто" data-kz="Жаңа және Қолданылған автомобильдер">Новые и Б/У авто</li>
+                        <li data-ru="Без первоначального взноса" 
+                            data-kz="Бастапқы жарнасыз">Без первоначального взноса</li>
+                    </ul>
+                    <a href="auto.html" class="btn btn-outline">
+                        <span data-ru="Подробнее" data-kz="Толығырақ">Подробнее</span>
+                    </a>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <h3 data-ru="Для ИП и ТОО" data-kz="ЖШС және МШС үшін">Для ИП и ТОО</h3>
+                    <ul>
+                        <li data-ru="До 200 млн тенге" data-kz="200 млн теңгеге дейін">До 200 млн тенге</li>
+                        <li data-ru="Решение за 1 день" data-kz="1 күнде шешім">Решение за 1 день</li>
+                        <li data-ru="Полное сопровождение" 
+                            data-kz="Толық қолдау">Полное сопровождение</li>
+                    </ul>
+                    <a href="business.html" class="btn btn-outline">
+                        <span data-ru="Подробнее" data-kz="Толығырақ">Подробнее</span>
+                    </a>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="service-card">
+                    <h3 data-ru="Рефинансирование" data-kz="Қайта қаржыландыру">Рефинансирование</h3>
+                    <ul>
+                        <li data-ru="Снижение ежемесячного платежа" 
+                            data-kz="Айлық төлемді төмендету">Снижение ежемесячного платежа</li>
+                        <li data-ru="Улучшение условий кредита" 
+                            data-kz="Несие жағдайын жақсарту">Улучшение условий кредита</li>
+                        <li data-ru="Объединение нескольких кредитов" 
+                            data-kz="Бірнеше несиелерді біріктіру">Объединение нескольких кредитов</li>
+                    </ul>
+                    <a href="refinance.html" class="btn btn-outline">
+                        <span data-ru="Подробнее" data-kz="Толығырақ">Подробнее</span>
+                    </a>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="service-card">
+                    <h3 data-ru="Ипотека" data-kz="Ипотека">Ипотека</h3>
+                    <ul>
+                        <li data-ru="Первичное и вторичное жилье" 
+                            data-kz="Бірінші және екінші тұрғын үй">Первичное и вторичное жилье</li>
+                        <li data-ru="Государственные программы" 
+                            data-kz="Мемлекеттік бағдарламалар">Государственные программы</li>
+                        <li data-ru="С плохой кредитной историей" 
+                            data-kz="Нашар несие тарихымен">С плохой кредитной историей</li>
+                    </ul>
+                    <a href="#calculator" class="btn btn-outline" onclick="openCalculator()">
+                        <span data-ru="Рассчитать" data-kz="Есептеу">Рассчитать</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <h2 class="section-title" data-ru="Калькулятор вероятности одобрения" 
+                data-kz="Мақұлдау ықтималдығы калькуляторы">Калькулятор вероятности одобрения</h2>
+            <p class="section-subtitle" data-ru="Узнайте ваши шансы на одобрение кредита за 2 минуты" 
+               data-kz="Несиені мақұлдау мүмкіндіğiңізді 2 минутта біліңіз">
+                Узнайте ваши шансы на одобрение кредита за 2 минуты
+            </p>
+            <button class="btn btn-primary" onclick="openCalculator()">
+                <span data-ru="Рассчитать вероятность" data-kz="Ықтималдықты есептеу">Рассчитать вероятность</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <h2 class="section-title" data-ru="Наши официальные партнёры" 
+                data-kz="Біздің ресми серіктестер">Наши официальные партнёры</h2>
+            <div class="partners-grid">
+                <img src="partner-solva.png" alt="Партнёр Solva" class="partner-logo">
+                <img src="partner-dossym.png" alt="Партнёр Dossym" class="partner-logo">
+                <img src="partner-jetcar.png" alt="Партнёр JetCar" class="partner-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title" data-ru="Отзывы клиентов" data-kz="Клиенттердің пікірлері">Отзывы клиентов</h2>
+            <div class="reviews-grid">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <h4 data-ru="Марина К., Астана" data-kz="Марина К., Астана">Марина К., Астана</h4>
+                    <p data-ru="Помогли оформить ипотеку с просрочками в истории. Очень благодарна специалистам Sunkar Finance за профессионализм!" 
+                       data-kz="Тарихында кешігулері бар ипотеканы рәсімдеуге көмектесті. Sunkar Finance мамандарына кәсібилігі үшін өте ризамын!">
+                        Помогли оформить ипотеку с просрочками в истории. Очень благодарна специалистам Sunkar Finance за профессионализм!
+                    </p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="review-card">
+                    <h4 data-ru="Артём Л., Алматы" data-kz="Артём Л., Алматы">Артём Л., Алматы</h4>
+                    <p data-ru="Команда работает быстро и качественно. Одобрили кредит под залог недвижимости, когда другие банки отказывали." 
+                       data-kz="Команда жылдам және сапалы жұмыс істейді. Басқа банктер бас тартқан кезде мүлікке несие берді.">
+                        Команда работает быстро и качественно. Одобрили кредит под залог недвижимости, когда другие банки отказывали.
+                    </p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="review-card">
+                    <h4 data-ru="Валерий Н., Актобе" data-kz="Валерий Н., Актобе">Валерий Н., Актобе</h4>
+                    <p data-ru="Рефинансировал три кредита в один. Ежемесячный платеж снизился на 35%. Спасибо за помощь!" 
+                       data-kz="Үш несиені біреуіне қайта қаржыландырды. Айлық төлем 35%-ға төмендеді. Көмек үшін рахмет!">
+                        Рефинансировал три кредита в один. Ежемесячный платеж снизился на 35%. Спасибо за помощь!
+                    </p>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="review-card">
+                    <h4 data-ru="Иманова Салтанат, Астана" data-kz="Иманова Салтанат, Астана">Иманова Салтанат, Астана</h4>
+                    <p data-ru="52 жастамын, зейнеткер. Балама үшін пәтер алуға көмектесті. Рахмет Sunkar Finance!" 
+                       data-kz="52 жастамын, зейнеткер. Балама үшін пәтер алуға көмектесті. Рахмет Sunkar Finance!">
+                        52 жастамын, зейнеткер. Балама үшін пәтер алуға көмектесті. Рахмет Sunkar Finance!
+                    </p>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="review-card">
+                    <h4 data-ru="Серікбаев Ербол, Алматы" data-kz="Серікбаев Ербол, Алматы">Серікбаев Ербол, Алматы</h4>
+                    <p data-ru="ЖШС үшін жұмыс капиталын алуға көмектесті. 1 күнде шешім шығарды. Ұсыныстардың барлығын орындаймын!" 
+                       data-kz="ЖШС үшін жұмыс капиталын алуға көмектесті. 1 күнде шешім шығарды. Ұсыныстардың барлығын орындаймын!">
+                        ЖШС үшін жұмыс капиталын алуға көмектесті. 1 күнде шешім шығарды. Ұсыныстардың барлығын орындаймын!
+                    </p>
+                </div>
+
+                <!-- Review 6 -->
+                <div class="review-card">
+                    <h4 data-ru="Ақниет Айгерім, Шымкент" data-kz="Ақниет Айгерім, Шымкент">Ақниет Айгерім, Шымкент</h4>
+                    <p data-ru="Тіпті нашар несие тарихымен автокредит алдым. Кәсіпқойларға сенемін және ұсынамын!" 
+                       data-kz="Тіпті нашар несие тарихымен автокредит алдым. Кәсіпқойларға сенемін және ұсынамын!">
+                        Тіпті нашар несие тарихымен автокредит алдым. Кәсіпқойларға сенемін және ұсынамын!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2 class="section-title" data-ru="Контакты" data-kz="Байланыс">Контакты</h2>
+            <div class="contacts-content">
+                <img src="map-kz.png" alt="Карта Казахстана" class="map-image">
+                <div class="contact-info">
+                    <div class="social-links">
+                        <a href="https://instagram.com/sunkar_finance" class="social-link">
+                            <img src="instagram.png" alt="Instagram" width="96" height="96" class="social-icon">
+                        </a>
+                        <a href="https://tiktok.com/@sunkar.finance" class="social-link">
+                            <img src="tiktok.png" alt="TikTok" width="96" height="96" class="social-icon">
+                        </a>
+                        <a href="https://2gis.kz/astana/firm/70000001083468965" class="social-link">
+                            <img src="2gis.png" alt="2GIS" width="96" height="96" class="social-icon">
+                        </a>
+                        <a href="https://wa.me/77470493983" class="social-link">
+                            <img src="whatsapp.png" alt="WhatsApp" width="96" height="96" class="social-icon">
+                        </a>
+                    </div>
+                    <p class="contact-text" data-ru="Наша партнёрская сеть по всей Республике Казахстан" 
+                       data-kz="Біздің серіктестік желіміз бүкіл Қазақстан Республикасы бойынша">
+                        Наша партнёрская сеть по всей Республике Казахстан
+                    </p>
+                    <p class="contact-phone">
+                        <a href="https://wa.me/77470493983">+7 747 049 39 83</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator Modal -->
+    <div id="calculatorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCalculator()">&times;</span>
+            <h2 data-ru="Калькулятор вероятности одобрения" 
+                data-kz="Мақұлдау ықтималдығы калькуляторы">Калькулятор вероятности одобрения</h2>
+            
+            <form id="calculatorForm" class="calc-form">
+                <div class="form-group">
+                    <label data-ru="ФИО" data-kz="Аты-жөні">ФИО *</label>
+                    <input type="text" id="fullName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label data-ru="Телефон" data-kz="Телефон">Телефон *</label>
+                    <input type="tel" id="phone" required placeholder="+7 701 123 45 67">
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Город" data-kz="Қала">Город *</label>
+                    <input type="text" id="city" required>
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Вид услуги" data-kz="Қызмет түрі">Вид услуги *</label>
+                    <select id="serviceType" required>
+                        <option value="" data-ru="Выберите услугу" data-kz="Қызметті таңдаңыз">Выберите услугу</option>
+                        <option value="unsecured_no_income" data-ru="Кредит без залога (до 10 млн)" data-kz="Тұрақсыз несие (10 млн дейін)">Кредит без залога (до 10 млн)</option>
+                        <option value="unsecured_with_income" data-ru="Кредит без залога (до 20 млн)" data-kz="Тұрақсыз несие (20 млн дейін)">Кредит без залога (до 20 млн)</option>
+                        <option value="secured" data-ru="Кредит под залог" data-kz="Тұрақты несие">Кредит под залог</option>
+                        <option value="mortgage" data-ru="Ипотека" data-kz="Ипотека">Ипотека</option>
+                        <option value="business" data-ru="Для ИП/ТОО" data-kz="ЖШС/МШС үшін">Для ИП/ТОО</option>
+                        <option value="auto" data-ru="Автокредит" data-kz="Автокредит">Автокредит</option>
+                        <option value="refinance" data-ru="Рефинансирование" data-kz="Қайта қаржыландыру">Рефинансирование</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Желаемая сумма (₸)" data-kz="Қажетті сома (₸)">Желаемая сумма (₸) *</label>
+                    <input type="number" id="amount" required placeholder="5000000">
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Возраст" data-kz="Жасы">Возраст</label>
+                    <input type="number" id="age" placeholder="30">
+                </div>
+
+                <div class="form-group">
+                    <label data-ru="Ежемесячный доход (₸)" data-kz="Айлық табыс (₸)">Ежемесячный доход (₸)</label>
+                    <input type="number" id="income" placeholder="300000">
+                </div>
+
+                <button type="button" class="btn btn-primary" onclick="calculateProbability()">
+                    <span data-ru="Рассчитать вероятность" data-kz="Ықтималдықты есептеу">Рассчитать вероятность</span>
+                </button>
+            </form>
+            
+            <div id="calcResult" class="calc-result" style="display: none;">
+                <div class="progress-circle">
+                    <span id="percentValue">0%</span>
+                </div>
+                <p id="resultText"></p>
+                <button class="btn btn-success" onclick="sendToWhatsApp()">
+                    <span data-ru="Отправить заявку" data-kz="Өтініш жіберу">Отправить заявку</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
